@@ -1,0 +1,38 @@
+
+/* picture of me */
+img
+{
+    display: block;
+    margin: 0 auto;
+}
+
+/* my name */
+h1
+{
+	font-family: Verdana, Arial, Sans-serif;
+	font-style: italic;
+	font-weight: bolder;
+	font-size: 38px;
+	text-align: center;
+}
+
+/* links to bio and resume */
+div
+{
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 19px;
+	text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+a:link, a:visited
+{
+	color: #ad2b4b;
+}
+
+a:hover
+{
+	color: #9b9b9b;
+}
+
