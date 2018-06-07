@@ -13,19 +13,52 @@ h1
 	font-style: italic;
 	font-weight: bolder;
 	font-size: 38px;
+	color: #1c1c1c;
 	text-align: center;
 }
 
-/* links to bio and resume */
-div
+/* headers on resume */
+h2
 {
 	font-family: Verdana, Arial, Sans-serif;
-	font-size: 19px;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+    margin: auto;
+    width: 50%;
+
+}
+
+/* links to bio and resume */
+div, h3
+{
+	font-family: Verdana, Arial, Sans-serif;
+	font-size: 15px;
 	text-align: center;
     margin: auto;
     width: 50%;
 }
 
+
+/* body text on bio page */
+p, ul, h4
+{
+	font-family: Verdana, Arial, Sans-serif;
+	text-align: center;
+    margin: auto;
+    width: 50%;
+	font-size: 13px;
+	font-weight: normal;
+
+	list-style-type: none;
+}
+
+h4
+{
+	font-style: italic;
+}
+
+/* link styling */
 a:link, a:visited
 {
 	color: #ad2b4b;
